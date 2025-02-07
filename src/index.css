@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  /* Sin subrayado */
+}
+button,img,li{
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  /* Subrayado al pasar el mouse */
+}
+
+ul,
+ol {
+  list-style: none;
+  /* Elimina los puntos de las listas */
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Mukta', sans-serif;
+  overflow-x: hidden;
+}

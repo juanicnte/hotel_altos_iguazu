@@ -1,0 +1,181 @@
+.slider-rooms-title {
+    height: 60vh;
+    position: relative;
+}
+
+.swiper-rooms-juani {
+    height: 100%;
+    filter: brightness(.5);
+    z-index: -1;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #67a565 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #67a565 !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+
+.title-swiper {
+    position: absolute;
+    z-index: 1;
+    margin: 2rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    top: 3rem;
+}
+
+.title-swiper h3 {
+    font-size: 32px;
+}
+
+.title-swiper h4 {
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .9;
+}
+
+.rooms-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 4rem 2rem;
+    gap: 5rem;
+}
+
+.room-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-item h5 {
+    margin: 0rem 0 .5rem;
+    font-size: 24px;
+    opacity: .9;
+}
+
+.room-item picture {
+    height: 7rem;
+    width: 100%;
+}
+
+.room-item picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.room-item-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.room-item-desc p {
+    font-size: 14px;
+    margin: 0 .5rem;
+}
+
+.room-item-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.room-item-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.room-item-checklist svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1 !important;
+}
+
+.room-item-link {
+    width: auto;
+    background: transparent;
+    text-align: left;
+    color: #67a565;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px) {
+    .title-swiper h3{
+        font-size: 36px;
+    }
+
+    .title-swiper h4{
+        font-size: 20px;
+    }
+
+    .room-item picture {
+        height: 20rem;
+    }
+
+    .room-item-checklist {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .room-item-desc p{
+        font-size: 16px;
+    }
+
+    .room-item-checklist li {
+        width: 14rem;
+    }
+
+    .rooms-list-container{
+        margin: 4rem 5rem;
+        gap: 7rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title-swiper {
+        margin: 5rem;
+    }
+
+    .title-swiper h3 {
+        font-size: 36px;
+    }
+
+    .title-swiper h4 {
+        font-size: 24px;
+    }
+    .room-item{
+        width: 45rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title-swiper {
+        margin: 8rem;
+    }
+    .room-item{
+        width: 35rem;
+    }
+    .rooms-list-container{
+        justify-content: flex-start;
+    }
+}

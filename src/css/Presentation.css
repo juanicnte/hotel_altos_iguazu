@@ -1,0 +1,191 @@
+.presentation-container {
+    margin: 4rem 1rem;
+}
+
+.presentation-text-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.presentation-text-one h2, .presentation-desktop-flex h4 {
+    font-size: 30px;
+    color: #67a565;
+}
+
+.presentation-text-one p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(44, 62, 80, .7);
+}
+
+.presentation-gallery-btn {
+    margin: 1rem auto;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #67a565;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+}
+
+.presentation-rooms {
+    position: relative;
+    margin-top: 4rem;
+    background-image: url(https://media.staticontent.com/media/pictures/b8547ca9-f3ab-4a38-99f4-9bf1ca59da3d/1120x623?op=TRUNCATE&enlarge=false&gravity=ce_0_0&quality=80&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.presentation-rooms h3,  
+.presentation-rooms span,  
+.presentation-rooms a,  
+.presentation-rooms p {  
+    position: inherit;  
+    z-index: 10;  
+}
+
+.cover-filter-pr {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* filter: brightness(0.5); */
+    background: #000;
+    opacity: .6;
+    z-index: 0;
+}
+
+.presentation-rooms h3 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.presentation-rooms p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 1rem;
+}
+
+.presentation-rooms a {
+    color: #25d366;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid;
+}
+
+.presentation-rooms span {
+    font-size: 18px;
+    color: #cecece;
+}
+
+.chakra-spinner{
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.contactForm-checkbox-privacy{
+    display: flex;
+    align-items: baseline;
+    gap: .3rem;
+    color: #333333
+}
+
+.contactForm-checkbox-privacy a{
+    color: #000;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .presentation-container{
+        margin: 4rem 2rem;
+    }
+
+    .presentation-text-one h2, .presentation-desktop-flex h4{
+        font-size: 36px;
+    }
+
+    .presentation-text-one p{
+        font-size: 16px
+    }
+
+    .presentation-rooms span{
+        font-size: 20px;
+    }
+
+    .presentation-rooms h3{
+        font-size: 26px;
+    }
+
+    .presentation-rooms p{
+        font-size: 16px;
+    }
+
+    .presentation-text-one{
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .presentation-text-one img{
+        width: 50%;
+        object-fit: cover;
+        height: 24rem;
+    }
+
+    .presentation-desktop-flex{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .presentation-container{
+        margin: 4rem 5rem;
+    }
+    .presentation-rooms{
+        padding: 8rem 3rem;
+    }
+    .presentation-rooms span{
+        font-size: 24px;
+    }
+    .presentation-rooms h3{
+        font-size: 36px;
+    }
+    .presentation-rooms p{
+        font-size: 18px;
+        margin: 0 8rem;
+    }
+    .presentation-rooms a{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    .presentation-container{
+        margin: 4rem 8rem;
+    }
+
+
+    .presentation-gallery-btn{
+        padding: 0;
+        margin: 0;
+        width: 13rem;
+        height: 3rem;
+        align-content: center;
+        padding-left: 1rem;
+        border-radius: 0;
+        margin-top: 1rem;
+    }
+}

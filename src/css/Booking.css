@@ -1,0 +1,354 @@
+.booking-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0 1rem;
+}
+
+.pick-date-btn-open {
+    background-color: #67a565;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pick-date-btn-open span {
+    background-color: #f0f0f0;
+    padding: .3rem 2rem;
+    color: #000;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    cursor: pointer;
+}
+
+.booking-header h3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.booking-header img {
+    width: 4rem;
+}
+
+#booking-pick-date {
+    margin: 0 1rem;
+}
+
+.booking-pick-date {
+    position: absolute;
+    z-index: 100000000;
+    background-color: #fff;
+    top: 0;
+    height: auto;
+    width: 100vw;
+    padding: 3rem 1rem 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.customers-card {
+    position: absolute;
+    z-index: 100000000;
+    background-color: #fff;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.plus-minus {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plus-minus svg {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.plus-minus span {
+    font-weight: 600;
+}
+
+.container-item-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-item-c span {
+    font-weight: 600;
+}
+
+.save-date-btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 18px;
+    background-color: #67a565;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 auto 2rem;
+}
+
+.date-button-close {
+    width: 2rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.save-customers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.save-customers button {
+    padding: 1rem 3rem;
+}
+
+.cancel-customers {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.savebtn-customers {
+    background-color: #67a565;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.rdp-root {
+    --rdp-accent-color: #67a565;
+    --rdp-accent-background-color: #f0f0f0;
+    --rdp-day_button-border-radius: "none";
+    --rdp-selected: "100";
+}
+
+.booking-rooms-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1rem .3rem 0;
+    gap: 1rem;
+}
+
+.title-offers {
+    font-size: 16px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.booking-room-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .18);
+}
+
+.booking-room-item h3 {
+    margin: 0rem 0 .5rem;
+    font-size: 14px;
+    opacity: .9;
+}
+
+.booking-room-item picture {
+    height: 17rem;
+    width: 100%;
+}
+
+.booking-room-item picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.booking-room-item-desc {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.booking-room-item-desc p {
+    font-size: 14px;
+    margin: 0 .5rem;
+}
+
+.booking-room-item-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.booking-room-item-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.booking-room-item-checklist svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1 !important;
+}
+
+.booking-room-item-link {
+    width: 11rem;
+    background: #67a565;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.booking-room-item-link svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.room-size {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(49, 49, 49, .68);
+}
+
+.room-items {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.room-items svg {
+    fill: #67a565;
+}
+
+.mas-ventajas {
+    font-size: 14px;
+    color: rgba(49, 49, 49);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.back-to-home{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    justify-content: center;
+    font-size: 20px;
+    color: #000;
+    opacity: .8;
+    margin: 5rem 0;
+    cursor: pointer;
+    /* margin-bottom: 5rem; */
+}
+
+.rdp-months{
+    gap: 3rem !important;
+}
+
+
+@media (min-width: 768px) {
+    .booking-room-item picture {
+        height: 30rem;
+    }
+
+    .container-item-c {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1024px) {
+    .booking-room-item {
+        flex-direction: row;
+    }
+
+    .booking-room-item picture {
+        height: 20rem;
+        width: 30rem;
+    }
+
+    .title-offers {
+        font-size: 20px;
+        margin: 2rem 2rem;
+        margin-left: 3rem;
+    }
+
+    .booking-room-item h3 {
+        font-size: 18px;
+    }
+
+    .booking-room-item-desc {
+        margin: 0;
+        padding: .5rem 2rem;
+    }
+
+    .booking-pick-date {
+        height: 31rem;
+        width: 50rem;
+        top: 8rem;
+        left: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .80);
+        padding: 1rem 1rem 0;
+    }
+
+    .customers-card{
+        height: 20rem;
+        padding: 1rem;
+        width: 30rem;
+        top: 8rem;
+        right: 18.5rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .80);
+    }
+    .rdp-root{
+        width: 100% !important;
+        padding: 0 2rem !important;
+    }
+    .rdp-months{
+        width: 100% !important;
+        max-width: none;
+        justify-content: space-between !important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .booking-room-item {
+        width: 44%;
+    }
+
+    .booking-pick-date {
+        left: 17rem;
+    }
+    .booking-rooms-list-container{
+        justify-content: center;
+    }
+}

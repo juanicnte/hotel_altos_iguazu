@@ -1,0 +1,84 @@
+[
+    {
+        "id": "doble",
+        "nombre": "Doble",
+        "precio": "$75.990",
+        "cantidadPersonas": "2",
+        "descripcion": "Cómoda habitación doble con aire acondicionado, TV y baño privado. Ideal para 2 personas.",
+        "detail": "Nuestra Habitación Doble ofrece el equilibrio perfecto entre confort y funcionalidad. Equipada con una amplia cama sommier, aire acondicionado, televisión y baño privado, es ideal para parejas o viajeros individuales que buscan comodidad. Disfruta de conexión Wi-Fi gratuita, caja de seguridad y secador de pelo. Además, accede a servicios exclusivos como desayuno buffet, piscina al aire libre y estacionamiento sin costo adicional.",
+        "thumbnailImage": "/altos-habitaciones/hab-doble-1.jpg",
+        "ventajas": [
+            "Aire acondicionado",
+            "Televisión",
+            "Baño privado",
+            "Cama doble Sommier",
+            "Capacidad para 2 personas",
+            "Wifi Gratuito",
+            "Caja de seguridad",
+            "Secador de pelo",
+            "Desayuno buffet",
+            "Piscina al aire libre",
+            "Estacionamiento"
+        ],
+        "images": [
+            "/altos-habitaciones/hab-doble-1.jpg",
+            "/altos-habitaciones/hab-doble-2.jpg",
+            "/altos-habitaciones/hab-doble-3.jpg"
+        ]
+    },
+    {
+        "id": "triple",
+        "nombre": "Triple",
+        "precio": "$75.990",
+        "cantidadPersonas": "3",
+        "descripcion": "Espaciosa habitación para 4 personas con aire acondicionado, TV y baño privado.",
+        "detail": "La Habitación Triple es perfecta para familias o grupos pequeños que buscan comodidad y amplitud. Dispone de una cama doble sommier y espacio para 4 huéspedes. Equipada con aire acondicionado, televisión y caja de seguridad, garantiza una estadía placentera. Además, ofrece Wi-Fi gratuito, secador de pelo y acceso a desayuno buffet, piscina al aire libre y estacionamiento sin costo adicional.",
+        "thumbnailImage": "/altos-habitaciones/hab-triple-1.jpg",
+        "ventajas": [
+            "Aire acondicionado",
+            "Televisión",
+            "Baño privado",
+            "Cama doble Sommier",
+            "Capacidad para 4 personas",
+            "Wifi Gratuito",
+            "Caja de seguridad",
+            "Secador de pelo",
+            "Desayuno buffet",
+            "Piscina al aire libre",
+            "Estacionamiento"
+        ],
+        "images": [
+            "/altos-habitaciones/hab-triple-1.jpg",
+            "/altos-habitaciones/hab-triple-2.jpg",
+            "/altos-habitaciones/hab-triple-3.jpg",
+            "/altos-habitaciones/hab-triple-4.jpg"
+        ]
+    },
+    {
+        "id": "cuadruple",
+        "nombre": "Cuádruple",
+        "precio": "$75.990",
+        "cantidadPersonas": "4",
+        "descripcion": "Espaciosa y confortable, perfecta para 4 personas. Equipada con aire acondicionado, TV y Wi-Fi.",
+        "detail": "La Habitación Cuádruple es una opción ideal para familias o grupos pequeños, ofreciendo comodidad y amplitud. Dispone de una cama doble Sommier, baño privado con secador de pelo y aire acondicionado. Además, cuenta con televisión, caja de seguridad y conexión Wi-Fi gratuita. Durante tu estadía, podrás disfrutar del desayuno buffet y acceso a la piscina al aire libre, así como estacionamiento incluido.",
+        "thumbnailImage": "/altos-habitaciones/hab-cuadruple-1.jpg",
+        "ventajas": [
+            "Aire acondicionado",
+            "Televisión",
+            "Baño privado",
+            "Cama doble Sommier",
+            "Capacidad para 4 personas",
+            "Wifi Gratuito",
+            "Caja de seguridad",
+            "Secador de pelo",
+            "Desayuno buffet",
+            "Piscina al aire libre",
+            "Estacionamiento"
+        ],
+        "images": [
+            "/altos-habitaciones/hab-cuadruple-1.jpg",
+            "/altos-habitaciones/hab-cuadruple-2.jpg",
+            "/altos-habitaciones/hab-cuadruple-3.jpg"
+        ]
+    }
+]
